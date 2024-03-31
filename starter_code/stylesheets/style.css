@@ -128,15 +128,14 @@ nav {
 #ref-logos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Align logos from left to right with space between */
-  align-items: center; /* Center the logos vertically */
-  max-width: 800px; /* Adjust max-width as needed */
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
   padding: 20px;
-  width: ;
 }
 
 #ref-logos img {
-  margin: 0px 5px; /* Add padding between logos */
+  margin: 0px 5px;
 }
 
 #nasa-logo {
@@ -259,5 +258,102 @@ hr {
     font-size: 80px;
     text-align: left;
     width: 50%;
+  }
+
+  #ref-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #ref-logos img {
+    margin: 0px 5px;
+  }
+
+  #nasa-logo {
+    width: 10%;
+  }
+
+  #airbnb-logo {
+    width: 15%;
+  }
+
+  #uber-logo {
+    width: 10%;
+  }
+
+  #target-logo {
+    width: 10%;
+  }
+
+  #nyt-logo {
+    width: 25%;
+  }
+
+  #spotify-logo {
+    width: 20%;
+  }
+
+  #refs-container > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .contact-buttons {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+
+  #list {
+    display: inline-flex;
+    text-align: left;
+  }
+
+  .percentage-text {
+    margin-left: 0;
+  }
+
+  .detail-links {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .ul-footer-logos {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-section > p {
+    width: 40%;
+  }
+
+  #signup-button,
+  #google-button {
+    width: 70%;
+  }
+
+  .header-section {
+    background-image: url("/images/background-signup.png");
+    width: 100%;
+    z-index: 1;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #hero {
+    position: relative;
+    width: 400px;
+    left: 0;
+    top: 30%;
+    z-index: 999;
   }
 }
